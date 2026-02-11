@@ -5,7 +5,9 @@ const ServiceList: React.FC<{ items: string[] }> = ({ items }) => (
   <ul className="space-y-5 mb-12 flex-grow">
     {items.map((item, idx) => (
       <li key={idx} className="flex items-start gap-4 text-sm text-white/70 font-medium">
-        <span className="material-symbols-outlined text-primary text-xl mt-[-2px]">check_circle</span>
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor" className="text-primary text-xl mt-[-2px] min-w-[20px]">
+          <path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm-56-256L684-596q11-11 11-28t-11-28q-11-11-28-11t-28 11L396-424l-84-84q-11-11-28-11t-28 11q-11 11-11 28t11 28l112 112q11 11 28 11t28-11Z" />
+        </svg>
         {item}
       </li>
     ))}

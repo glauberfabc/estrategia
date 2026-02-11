@@ -11,7 +11,7 @@ export const Expert: React.FC = () => {
               <img
                 className="w-full h-full object-cover grayscale transition-all duration-700 group-hover:grayscale-[0.5]"
                 alt="Expert portrait"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCNZ-gUeqYmt7IO6r3OR8KilDqe0fMVmzItbTLXOeLDr5TtKJnf1PDJph3oYUxZZv6qxvKYZJlzjz6PU7_z4WQIfT1zXB1mr3q-HqunMkOKD1MkGajMEUjZv9RZc9N_8G9-pABNzTUtWMxM1REJlgDgnTQCubGPOYmDJ8MyBP5UsclfJY63HY9KduMhvMnWy-sjFYmBTpfS3F-sd0GWMcUBsTqNrzxx2oGKwrbeccvQfi-8Nxv_YmDuWEMxyZMmOcz0o3o82boA9mk"
+                src="/1.png"
               />
             </div>
             <div className="absolute -bottom-10 -right-10 w-64 h-64 bg-primary/10 rounded-full blur-[100px]"></div>

@@ -31,23 +31,23 @@ export const Portfolio: React.FC = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <PortfolioItem
-            image="https://lh3.googleusercontent.com/aida-public/AB6AXuCRmeU2SiBCaZkMmGP1bjSHY9TOMUuT0I9C84xPduGi7mqJiKgwRGjuet309brMkhItQIJT1bo_eYoJjWtcXSb-41lP8OdBTpHMHn8sxVuFxnfaYBMFQ2-9Xfj_eJaxU0gje1QjAotd4mqOGdN8s0LvcUjpLBfvt5thwqRYWGuBlIGGBgETzIoLIU4RzxJBiZHWAXsmNeVysgO8F1m4hsbh5g6y2UQ-mkIg3-XZ-fYIPlkJRIxJfBSpqWFjtoq1HMmo12WYpPGOSS4"
+            image="/2.jpeg"
             title="Tech Leadership"
             subtitle="CEO Transformation"
           />
           <PortfolioItem
-            image="https://lh3.googleusercontent.com/aida-public/AB6AXuDTOiYEw92wVVP1XgL0y95J7tAGd7BE_4BBPgKmCWaXXJQroTcscy39PDcpgTWUl45-u21hcrMoWYv78IhcgGSSqGNoY93WR6UUERaa-GJED4OnfjNZxMXs0uFmjBmrgQUomfE7fsrf241TStu9Djjz08MQhHiuBC0vSTVfQnQ7HjGfjoF_MHUH8T9X4kJyCIAggZZc_R6Hg7z6TcemsdJWMCu4DjXZegZeYLhemW7YNGDu1Nmck8wg2aHb_S914KZGDLcxVc7pm34"
+            image="/3.jpeg"
             title="Finance Elite"
             subtitle="The Minimalist"
             offset
           />
           <PortfolioItem
-            image="https://lh3.googleusercontent.com/aida-public/AB6AXuCuKub3kCQgGyLfIg7RMn9F3KJu1r_6oNlz5zsjCpBqxUb_jF-LDqJaboAuAbnNMr-8giOeWMpj1OqsIHY0E8fqDc3bJhyC9Oev5fNCbGqOEqGh54CQT1De_9W1InX1qK926mr4YpD_rGzSX0C7A_kBoIAEPlEydOH51CKkWBd7mOxBt_Xrf_-1pvcDBnB8YQyD8z__ZOhVpA40Zgi7eWOaseXooiII0ZCBT6NjhW3kX7KaX4DDSa9zgmjM6Z93S2vhDZAvsMabtd0"
+            image="/4.jpeg"
             title="Legal Authority"
             subtitle="Signature Presence"
           />
           <PortfolioItem
-            image="https://lh3.googleusercontent.com/aida-public/AB6AXuAe1d3J2Kxv6rQICUpIvVSnk4cfXctUO1szQiMQ9PB9kJntWZfeXbX7xvkRhLSJW_rHZXMBDBPZWfHXwXhW9Gq1rAQSrr8oi8VZYOewUa3v8Iov-0G-Jlcr2yBZX5ZISFPXbqzzBqqtGIiofuKZ9r8GneD4OrJfvpqw86ZJa4HrYRATYjgwxAANL7c6EsmlKylOGFxS5KpHuxUV58A0-k3E2nq0lKpXb-yb7uzthJolPlMyCKaft7zrp2eCyUMD3lvs7g77NDvDQdw"
+            image="/5.jpeg"
             title="Creative Direction"
             subtitle="Authority Redefined"
             offset
