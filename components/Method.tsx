@@ -18,7 +18,7 @@ export const Method: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
           <div className="max-w-2xl">
             <h2 className="text-primary text-xs font-bold tracking-[0.4em] uppercase mb-4">El Método</h2>
-            <h3 className="text-4xl md:text-6xl font-black tracking-tighter leading-none">Arquitectando <br /> Autoridad Visual</h3>
+            <h3 className="text-4xl md:text-6xl font-black tracking-tighter leading-none">Método de <br /> Autoridad Instantánea</h3>
           </div>
           <p className="text-muted-blue max-w-xs text-lg font-medium leading-relaxed border-l border-neutral-blue pl-8">
             Un enfoque holístico que une la psicología de la autoimagen y el branding personal.
