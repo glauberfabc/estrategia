@@ -7,12 +7,12 @@ export const Hero: React.FC = () => {
       <div className="max-w-7xl mx-auto w-full grid md:grid-cols-2 gap-12 items-center">
         <div className="z-10 order-2 md:order-1">
           <p className="text-primary font-bold tracking-[0.4em] uppercase mb-4 text-xs">Personal Styling Premium</p>
-          <h1 className="text-5xl lg:text-8xl font-black leading-[1.05] mb-8 tracking-tighter">
-            Tu Imagen es Tu <br />
-            <span className="text-primary italic">Estrategia</span> <br className="hidden lg:block" /> Más Poderosa
+          <h1 className="text-5xl lg:text-7xl font-black leading-[1.05] mb-8 tracking-tighter uppercase">
+            Vístete para el puesto <br />
+            <span className="text-primary italic">que deseas</span>, <br className="hidden lg:block" /> no para el que tienes.
           </h1>
-          <p className="text-muted-blue text-lg mb-10 max-w-lg leading-relaxed">
-            Desbloquea tu potencial profesional a través de una identidad visual curada para alto impacto ejecutivo y autoridad inmediata.
+          <p className="text-muted-blue text-2xl mb-10 max-w-lg leading-relaxed font-bold italic">
+            Domina tu mercado a través de tu Imagen Ejecutiva.
           </p>
           <div className="flex flex-col sm:flex-row gap-6">
             <button className="bg-primary text-background-dark px-10 py-5 rounded-lg font-black text-sm uppercase tracking-widest hover:shadow-[0_0_40px_rgba(13,242,242,0.3)] hover:-translate-y-1 transition-all duration-300">
