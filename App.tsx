@@ -11,8 +11,7 @@ import { Footer } from './components/Footer';
 const App: React.FC = () => {
   return (
     <div className="min-h-screen bg-background-dark text-white selection:bg-primary selection:text-background-dark overflow-x-hidden">
-      <Navbar />
-      <main className="pt-20">
+      <main className="pt-0">
         <Hero />
         <Method />
         <Expert />
