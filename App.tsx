@@ -4,6 +4,7 @@ import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { Statement } from './components/Statement';
 import { Method } from './components/Method';
+import { ProductOffer } from './components/ProductOffer';
 import { Expert } from './components/Expert';
 import { Services } from './components/Services';
 import { Portfolio } from './components/Portfolio';
@@ -16,6 +17,7 @@ const App: React.FC = () => {
         <Hero />
         <Statement />
         <Method />
+        <ProductOffer />
         <Expert />
         <Services />
         <Portfolio />
