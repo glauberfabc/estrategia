@@ -1,20 +1,25 @@
 
 import React from 'react';
 
-const ServiceList: React.FC<{ items: string[] }> = ({ items }) => (
-  <ul className="space-y-5 mb-12 flex-grow">
-    {items.map((item, idx) => (
-      <li key={idx} className="flex items-start gap-4 text-sm text-white/70 font-medium">
-        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor" className="text-primary text-xl mt-[-2px] min-w-[20px]">
-          <path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm-56-256L684-596q11-11 11-28t-11-28q-11-11-28-11t-28 11L396-424l-84-84q-11-11-28-11t-28 11q-11 11-11 28t11 28l112 112q11 11 28 11t28-11Z" />
-        </svg>
-        {item}
-      </li>
-    ))}
-  </ul>
-);
-
 export const Services: React.FC = () => {
+  const items = [
+    "Estrategia",
+    "Autoconocimiento",
+    "Proporción corporal",
+    "Estilos",
+    "Colores y colorimetría personal",
+    "Revitalización del guardarropa",
+    "Montaje de looks y planificación de compras",
+    "Armado de looks",
+    "Atención al cliente",
+    "Estructura de negocio",
+    "Comunicación",
+    "Primera capa",
+    "Segunda capa",
+    "Tercera capa",
+    "Cuarta capa"
+  ];
+
   return (
     <section className="py-32 bg-neutral-blue/10 relative" id="servicos">
       <div className="max-w-7xl mx-auto px-6">
@@ -24,43 +29,37 @@ export const Services: React.FC = () => {
           <p className="text-muted-blue text-lg max-w-2xl mx-auto">Soluciones personalizadas diseñadas para acelerar tu ascenso profesional y consolidar tu legado.</p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-10 max-w-5xl mx-auto">
-          {/* Individual Plan */}
-          <div className="group relative p-1 bg-gradient-to-br from-white/10 to-transparent rounded-[2.5rem] hover:from-white/20 transition-all duration-700">
-            <div className="bg-background-dark p-12 rounded-[2.2rem] h-full flex flex-col border border-white/5">
-              <span className="text-[10px] font-black text-primary uppercase tracking-[0.3em] mb-6">Enfoque Individual</span>
-              <h4 className="text-4xl font-black mb-4 tracking-tight">Elite Personal Branding</h4>
-              <p className="text-muted-blue text-base mb-10 leading-relaxed font-medium">Para ejecutivos, fundadores y C-levels que buscan el siguiente nivel de autoridad.</p>
-
-              <ServiceList items={[
-                "Análisis de Coloración y Visagismo",
-                "Detox y Organización de Closet",
-                "Personal Shopper Day en Boutiques de Lujo",
-                "Dossier de Estilo Digital (Lookbook)"
-              ]} />
-
-              <button className="w-full border-2 border-primary/30 text-primary hover:bg-primary hover:text-background-dark py-5 rounded-2xl font-black text-xs uppercase tracking-widest transition-all duration-300">
-                Consultar Disponibilidad
-              </button>
+        <div className="grid lg:grid-cols-2 gap-16 items-center">
+          {/* Left Side: Image with round mask */}
+          <div className="relative flex justify-center lg:justify-end">
+            <div className="relative w-80 h-80 md:w-[32rem] md:h-[32rem]">
+              <div className="absolute inset-0 bg-primary/20 rounded-full blur-[80px] animate-pulse"></div>
+              <div className="relative w-full h-full rounded-full overflow-hidden border-2 border-primary/30 shadow-2xl">
+                <img
+                  className="w-full h-full object-cover grayscale transition-all duration-1000 hover:grayscale-0 hover:scale-110"
+                  alt="Lara Pires - Planes"
+                  src="/espe1.png"
+                />
+              </div>
             </div>
           </div>
 
-          {/* Corporate Plan */}
-          <div className="group relative p-1 bg-gradient-to-br from-primary/40 to-primary/10 rounded-[2.5rem] shadow-[0_30px_60px_-15px_rgba(13,242,242,0.1)]">
-            <div className="bg-background-dark p-12 rounded-[2.2rem] h-full flex flex-col border border-primary/20">
-              <span className="text-[10px] font-black text-primary uppercase tracking-[0.3em] mb-6">Corporativo</span>
-              <h4 className="text-4xl font-black mb-4 tracking-tight">Impacto Organizacional</h4>
-              <p className="text-muted-blue text-base mb-10 leading-relaxed font-medium">Entrenamiento de imagen estratégica para liderazgos y equipos de alto rendimiento.</p>
-
-              <ServiceList items={[
-                "Workshop de Código de Vestimenta Corporativo",
-                "Consultoría de Imagen para Equipos",
-                "Branding Visual de Liderazgo Ejecutivo",
-                "Sesiones de Fotos Corporativas (Dirección de Arte)"
-              ]} />
-
-              <button className="w-full bg-primary text-background-dark py-5 rounded-2xl font-black text-xs uppercase tracking-widest hover:shadow-[0_0_30px_rgba(13,242,242,0.4)] transition-all duration-300 transform active:scale-[0.98]">
-                Solicitar Propuesta
+          {/* Right Side: List of 15 items */}
+          <div className="flex flex-col">
+            <h4 className="text-2xl font-black text-white mb-8 tracking-tight uppercase border-l-4 border-primary pl-4">El Proceso de Transformación</h4>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 gap-x-8 gap-y-5">
+              {items.map((item, index) => (
+                <div key={index} className="flex items-center gap-4 group">
+                  <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center border border-primary/20 group-hover:bg-primary group-hover:border-primary transition-all duration-300 flex-shrink-0">
+                    <span className="text-xs font-black text-primary group-hover:text-background-dark">{index + 1}</span>
+                  </div>
+                  <span className="text-sm font-bold text-muted-blue group-hover:text-white transition-colors duration-300 uppercase tracking-wider">{item}</span>
+                </div>
+              ))}
+            </div>
+            <div className="mt-12 flex justify-center lg:justify-start">
+              <button className="bg-primary hover:bg-white text-background-dark px-12 py-5 rounded-lg font-black text-sm uppercase tracking-widest hover:shadow-[0_0_50px_rgba(13,242,242,0.4)] hover:-translate-y-1 transition-all duration-300 active:scale-95">
+                Solicitar Propuesta Personalizada
               </button>
             </div>
           </div>

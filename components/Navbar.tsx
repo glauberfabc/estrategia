@@ -22,16 +22,7 @@ export const Navbar: React.FC = () => {
           <span className="text-xl font-extrabold tracking-tighter uppercase">Estratégia Visual</span>
         </div>
 
-        <div className="hidden md:flex items-center gap-10">
-          <a className="text-xs font-bold hover:text-primary transition-colors uppercase tracking-[0.2em]" href="#metodo">Método</a>
-          <a className="text-xs font-bold hover:text-primary transition-colors uppercase tracking-[0.2em]" href="#expert">La Especialista</a>
-          <a className="text-xs font-bold hover:text-primary transition-colors uppercase tracking-[0.2em]" href="#servicos">Servicios</a>
-          <a className="text-xs font-bold hover:text-primary transition-colors uppercase tracking-[0.2em]" href="#portfolio">Portafolio</a>
-        </div>
 
-        <button className="bg-primary hover:bg-white text-background-dark px-6 py-2.5 rounded-lg text-xs font-black uppercase tracking-widest transition-all active:scale-95 shadow-[0_0_20px_rgba(13,242,242,0.15)]">
-          Agendar Consulta
-        </button>
       </nav>
     </header>
   );

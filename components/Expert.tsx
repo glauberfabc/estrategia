@@ -11,7 +11,7 @@ export const Expert: React.FC = () => {
               <img
                 className="w-full h-full object-cover grayscale transition-all duration-700 group-hover:grayscale-[0.5]"
                 alt="Expert portrait"
-                src="/1.png"
+                src="/especialista.jpeg"
               />
             </div>
             <div className="absolute -bottom-10 -right-10 w-64 h-64 bg-primary/10 rounded-full blur-[100px]"></div>
@@ -23,10 +23,13 @@ export const Expert: React.FC = () => {
 
             <div className="space-y-6 text-muted-blue text-lg leading-relaxed mb-12">
               <p>
-                Con más de una década de experiencia en el mercado de lujo y branding personal, mi misión es elevar la presencia de líderes globales.
+                Hola, soy Lara Pires. Como estratega de imagen visual, mi función es una sola: convertirte en la elección obvia.
               </p>
               <p>
-                Creo que la vestimenta no es sobre moda, sino sobre intención. A través de mi método, transformo la imagen personal en un activo tangible que abre puertas y consolida reputaciones.
+                Vivimos en la era de la imagen, y si no dominas la tuya, el mundo decide quién eres por ti. ¿Estás dejando dinero sobre la mesa y perdiendo oportunidades porque tu imagen comunica algo que no eres? Basta de ruidos visuales.
+              </p>
+              <p>
+                Yo traduzco tu experiencia en un visual magnético, intencional e imposible de ignorar. No cambio quién eres; extraigo tu máxima potencia para que el mundo finalmente vea tu valor real. Si buscas una imagen que abra puertas e imponga respeto, acabas de encontrar a tu estratega.
               </p>
             </div>
 

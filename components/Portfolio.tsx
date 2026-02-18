@@ -24,32 +24,29 @@ export const Portfolio: React.FC = () => {
             <h2 className="text-primary text-xs font-black tracking-[0.5em] uppercase mb-4">Casos</h2>
             <h3 className="text-4xl md:text-6xl font-black tracking-tighter leading-none">Transformaciones <br /> Reales</h3>
           </div>
-          <button className="text-xs font-black uppercase tracking-[0.3em] border-b-2 border-primary/50 pb-2 hover:border-primary hover:text-primary transition-all duration-300">
-            Ver Galería Completa
-          </button>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <PortfolioItem
             image="/2.jpeg"
-            title="Tech Leadership"
-            subtitle="CEO Transformation"
+            title="Liderazgo Tecnológico"
+            subtitle="Transformación CEO"
           />
           <PortfolioItem
             image="/3.jpeg"
-            title="Finance Elite"
-            subtitle="The Minimalist"
+            title="Élite Financiera"
+            subtitle="El Minimalista"
             offset
           />
           <PortfolioItem
             image="/4.jpeg"
-            title="Legal Authority"
-            subtitle="Signature Presence"
+            title="Autoridad Legal"
+            subtitle="Presencia Distintiva"
           />
           <PortfolioItem
             image="/5.jpeg"
-            title="Creative Direction"
-            subtitle="Authority Redefined"
+            title="Dirección Creativa"
+            subtitle="Autoridad Redefinida"
             offset
           />
         </div>
